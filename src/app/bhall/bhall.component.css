@@ -1,0 +1,14 @@
+mat-grid-tile {
+    background: lightblue;
+  }
+  #indent{
+    margin-left: 50px;
+  }
+  #bHalldisplay{
+    width: 80%;
+      margin-left: 10%;
+      border: 1px double black;
+  }
+  #hall{
+    height: 50px;
+  }

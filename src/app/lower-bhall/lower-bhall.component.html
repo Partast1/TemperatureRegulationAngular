@@ -1,0 +1,10 @@
+<mat-grid-list cols="20" rowHeight="40px" gutterSize="5px">
+    <mat-grid-tile
+     *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.border]="tile.border">
+    {{tile.text}}
+    </mat-grid-tile>
+    </mat-grid-list>
+    

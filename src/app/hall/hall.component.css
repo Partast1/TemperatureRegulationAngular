@@ -1,0 +1,21 @@
+.Room{
+   
+background-color: aqua;
+
+
+};
+.RoomLong{
+min-height: 16%;
+border: 3px double black;
+};
+.RoomShort{
+    min-height: 8%;
+    border: 3px double black;
+    background-color: aqua;
+};
+.Roomwide{
+width: 30%;
+};
+.RoomNarrow{
+
+};

@@ -1,0 +1,14 @@
+<div id="bHalldisplay">
+<div id="indent">
+<app-upper-bhall> </app-upper-bhall>
+<div id="hall"></div>
+<app-middle-bhall> </app-middle-bhall>
+</div>
+<app-lower-bhall> </app-lower-bhall>
+<app-lowest-bhall> </app-lowest-bhall>
+</div>
+<li *ngFor="let device of Devices">
+    {{device.Temp}}
+    {{Devices[1].Humidity}}
+</li>
+<app-hall> </app-hall>
